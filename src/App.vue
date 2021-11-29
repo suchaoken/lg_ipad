@@ -1,5 +1,6 @@
 <template>
     <div>
+        <div>sss</div>
         <router-view />
     </div>
 </template>
