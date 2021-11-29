@@ -1,0 +1,38 @@
+{
+  "name": "postcss-load-config",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service build --mode development",
+    "test": "vue-cli-service build --mode test",
+    "prod": "vue-cli-service build --mode production",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "postcss-plugin": "^1.0.0",
+    "vite": "^2.6.14",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "axios": "^0.24.0",
+    "echarts": "^5.2.2",
+    "postcss-load-config": "^3.1.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2"
+  },
+  "postcss": {
+    "map": false,
+    "plugins": {
+      "postcss-plugin": {}
+    }
+  }
+}
